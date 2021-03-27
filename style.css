@@ -1,0 +1,98 @@
+.fix{
+  width:700px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.navbar{
+  justify-content:center;
+  display: flex;
+  background: red;
+}
+.container{
+   display: flex;
+   flex-wrap: wrap;
+}
+.main{
+ flex: 50%;
+}
+.side{
+  flex: 50%;
+ 
+}
+.indent{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.listone{
+  
+  font-family: 'New Tegomin', serif;
+}
+.main{
+  font-family: 'Lato', sans-serif;
+}
+a{
+  font-size: 20px;
+  margin: 0 20px;
+}
+div.one{
+   margin-bottom: 50px;
+  height: 350px;
+  width: 350px;
+  background: no-repeat center/300% url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+}
+.hi{
+  font-weight: bold;
+  font-size: 40px;
+  position: relative; 
+  top: 220px;
+  left: 120px;
+  }
+.bio{
+  margin-bottom: 150px;
+}
+.achievements{
+  margin-bottom: 100px;
+}
+.experience{
+  margin-bottom: 100px;
+}
+div.quote1::before {
+  content: '”';
+  
+  }
+.quote1{
+  font-weight: bold;
+  margin-bottom: 700px;
+  text-align: center;
+  font-size:45px;
+  color: white;
+  background: red;
+  height: 150px;
+  width: 350px;
+}
+div.quote2::before {
+  content: '”';
+  
+  }
+.quote2{
+  font-weight: bold;
+  margin-bottom: 600px;
+  text-align: center;
+  font-size:45px;
+  color: white;
+  background: red;
+  height: 150px;
+  width: 350px;
+}
+div.quote3::before {
+  content: '”';
+  
+  }
+.quote3{
+  font-weight: bold;
+  text-align: center;
+  font-size:70px;
+  color: white;
+  background: red;
+  height: 550px;
+  width: 350px;
+}
